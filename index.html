@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div
+      class="d-flex flex-column align-items-center justify-content-center h-100">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-12">
+            <div class="title">
+              <h1 class="text-center text-color">Quote of the Day</h1>
+            </div>
+          </div>
+          <div class="col-md-6 mx-auto">
+            <div
+              id="quote-id"
+              class="inner-quote position-relative py-5 px-4 bg-light shadow rounded-5">
+              <div class="quote">
+                <h2 class="mb-0 text-color text-uppercase">Quote</h2>
+                <p class="lead mt-4">
+                  “I believe that everything happens for a reason. People change
+                  so that you can learn to let go, things go wrong so that you
+                  appreciate them when they're right, you believe lies so you
+                  eventually learn to trust no one but yourself, and sometimes
+                  good things fall apart so better things can fall together.”
+                </p>
+                <p class="aouther mt-4 text-end text-secondary">
+                  Marilyn Monroe
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="add text-center">
+              <button class="btn-color" onclick="addQuote()">Quote</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
